@@ -47,8 +47,8 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "chalk": "catalog:",
-    "gray-matter": "catalog:"
+    "chalk": "catalog:default",
+    "gray-matter": "catalog:default"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:cli",

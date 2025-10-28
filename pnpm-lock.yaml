@@ -38,7 +38,7 @@ catalogs:
       version: 7.1.7
   default:
     chalk:
-      specifier: 'catalog:'
+      specifier: ^5.4.1
       version: 5.6.2
     gray-matter:
       specifier: ^4.0.3
@@ -70,10 +70,10 @@ importers:
   .:
     dependencies:
       chalk:
-        specifier: 'catalog:'
+        specifier: catalog:default
         version: 5.6.2
       gray-matter:
-        specifier: 'catalog:'
+        specifier: catalog:default
         version: 4.0.3
     devDependencies:
       '@antfu/eslint-config':
