@@ -57,10 +57,6 @@ pnpm add -g md-to-mdx
 
 安装后可直接通过 `pnpm md-to-mdx ./notes` 或全局的 `md-to-mdx ./notes` 运行。
 
-## 发布说明（维护者）
-
-本项目已配置 npm Trusted Publisher 流程。首次发布需手动执行 `pnpm publish --access public` 创建包，并在 npm 管理页面绑定 GitHub 仓库。之后可通过 `pnpm run release` 触发 GitHub Actions 自动发版。
-
 ## 许可证
 
 [MIT](./LICENSE.md) License © [KazooTTT](https://github.com/kazoottt)

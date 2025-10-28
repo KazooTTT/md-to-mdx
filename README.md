@@ -57,10 +57,6 @@ pnpm add -g md-to-mdx
 
 Then invoke with `pnpm md-to-mdx ./notes` (workspace) or `md-to-mdx ./notes`.
 
-## Publishing (for maintainers)
-
-The project is set up for the npm Trusted Publisher flow. Publish the very first version manually with `pnpm publish --access public`, connect the package to the GitHub repo via the npm access settings page, and run `pnpm run release` for subsequent releases so CI can handle publishing.
-
 ## License
 
 [MIT](./LICENSE) License © [KazooTTT](https://github.com/kazoottt)
