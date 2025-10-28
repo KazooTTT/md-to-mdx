@@ -1,19 +1,25 @@
 {
-  "name": "pkg-placeholder",
+  "name": "md-to-mdx",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@10.17.1",
-  "description": "_description_",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "description": "Convert Markdown files with front-matter to MDX files with exported metadata.",
+  "author": "KazooTTT <work@kazoottt.top>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/pkg-placeholder#readme",
+  "funding": "https://github.com/sponsors/kazoottt",
+  "homepage": "https://github.com/kazoottt/md-to-mdx",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-placeholder.git"
+    "url": "git+https://github.com/kazoottt/md-to-mdx.git"
   },
-  "bugs": "https://github.com/antfu/pkg-placeholder/issues",
-  "keywords": [],
+  "bugs": "https://github.com/kazoottt/md-to-mdx/issues",
+  "keywords": [
+    "markdown",
+    "mdx",
+    "converter",
+    "frontmatter",
+    "metadata"
+  ],
   "sideEffects": false,
   "exports": {
     ".": "./dist/index.js",
@@ -22,6 +28,10 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "bin": {
+    "md2mdx": "./dist/index.js",
+    "md-to-mdx": "./dist/index.js"
+  },
   "files": [
     "dist"
   ],
@@ -35,6 +45,10 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "chalk": "catalog:",
+    "gray-matter": "catalog:"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:cli",

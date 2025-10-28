@@ -4,8 +4,9 @@ packages:
   - packages/*
   - examples/*
 
-ignoreWorkspaceRootCheck: true
-shellEmulator: true
+catalog:
+  chalk: 'catalog:'
+  gray-matter: ^4.0.3
 
 catalogs:
   cli:
@@ -28,6 +29,11 @@ catalogs:
     yaml: ^2.8.1
   types:
     '@types/node': ^24.5.2
+
+ignoreWorkspaceRootCheck: true
+
 onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
+
+shellEmulator: true
