@@ -1,7 +1,7 @@
 {
   "name": "@kzttools/md-to-mdx",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "pnpm@10.17.1",
   "description": "Convert Markdown files with front-matter to MDX files with exported metadata.",
   "author": "KazooTTT <work@kazoottt.top>",
