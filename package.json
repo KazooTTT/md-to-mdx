@@ -1,5 +1,5 @@
 {
-  "name": "md-to-mdx",
+  "name": "@kzttools/md-to-mdx",
   "type": "module",
   "version": "0.0.2",
   "packageManager": "pnpm@10.17.1",

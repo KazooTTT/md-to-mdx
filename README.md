@@ -20,7 +20,7 @@ Convert Markdown files with front-matter into ready-to-use MDX files that export
 Run the CLI without installing anything:
 
 ```bash
-npx md-to-mdx ./content --deep
+npx @kzttools/md-to-mdx ./content --deep
 ```
 
 Options:
@@ -36,23 +36,23 @@ Each Markdown file is converted to an `.mdx` file alongside the original and inc
 Want to process a single file? Just pass the `.md` path:
 
 ```bash
-npx md-to-mdx ./posts/about.md
+npx @kzttools/md-to-mdx ./posts/about.md
 ```
 
 Prefer writing to a separate folder? Specify `--out`:
 
 ```bash
-npx md-to-mdx ./content --deep --out ./converted
+npx @kzttools/md-to-mdx ./content --deep --out ./converted
 ```
 
 ### Install Locally or Globally
 
 ```bash
 # project devDependency
-pnpm add -D md-to-mdx
+pnpm add -D @kzttools/md-to-mdx
 
 # global install
-pnpm add -g md-to-mdx
+pnpm add -g @kzttools/md-to-mdx
 ```
 
 Then invoke with `pnpm md-to-mdx ./notes` (workspace) or `md-to-mdx ./notes`.
@@ -63,11 +63,11 @@ Then invoke with `pnpm md-to-mdx ./notes` (workspace) or `md-to-mdx ./notes`.
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/md-to-mdx
-[npm-downloads-src]: https://img.shields.io/npm/dm/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/md-to-mdx
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=md-to-mdx
+[npm-version-src]: https://img.shields.io/npm/v/@kzttools/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/@kzttools/md-to-mdx
+[npm-downloads-src]: https://img.shields.io/npm/dm/@kzttools/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/@kzttools/md-to-mdx
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/@kzttools/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=@kzttools/md-to-mdx
 [license-src]: https://img.shields.io/github/license/kazoottt/md-to-mdx.svg?style=flat&colorA=080f12&colorB=1fa669
 [license-href]: https://github.com/kazoottt/md-to-mdx/blob/main/LICENSE.md

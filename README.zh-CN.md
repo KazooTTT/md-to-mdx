@@ -17,10 +17,10 @@
 
 ## 快速开始
 
-无需安装，直接运行：
+无需安装,直接运行:
 
 ```bash
-npx md-to-mdx ./content --deep
+npx @kzttools/md-to-mdx ./content --deep
 ```
 
 命令行参数：
@@ -33,26 +33,26 @@ npx md-to-mdx ./content --deep
 
 工具会在原目录旁生成 `.mdx` 文件，并自动注入 `export const metadata = { ... }`。
 
-只想处理某个单独的 Markdown？直接指向该文件即可：
+只想处理某个单独的 Markdown?直接指向该文件即可:
 
 ```bash
-npx md-to-mdx ./posts/about.md
+npx @kzttools/md-to-mdx ./posts/about.md
 ```
 
-希望输出到独立目录？使用 `--out` 指定：
+希望输出到独立目录?使用 `--out` 指定:
 
 ```bash
-npx md-to-mdx ./content --deep --out ./converted
+npx @kzttools/md-to-mdx ./content --deep --out ./converted
 ```
 
 ### 安装到项目或全局
 
 ```bash
 # 项目内开发依赖
-pnpm add -D md-to-mdx
+pnpm add -D @kzttools/md-to-mdx
 
 # 全局安装
-pnpm add -g md-to-mdx
+pnpm add -g @kzttools/md-to-mdx
 ```
 
 安装后可直接通过 `pnpm md-to-mdx ./notes` 或全局的 `md-to-mdx ./notes` 运行。
@@ -63,11 +63,11 @@ pnpm add -g md-to-mdx
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/md-to-mdx
-[npm-downloads-src]: https://img.shields.io/npm/dm/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/md-to-mdx
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=md-to-mdx
+[npm-version-src]: https://img.shields.io/npm/v/@kzttools/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/@kzttools/md-to-mdx
+[npm-downloads-src]: https://img.shields.io/npm/dm/@kzttools/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/@kzttools/md-to-mdx
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/@kzttools/md-to-mdx?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=@kzttools/md-to-mdx
 [license-src]: https://img.shields.io/github/license/kazoottt/md-to-mdx.svg?style=flat&colorA=080f12&colorB=1fa669
 [license-href]: https://github.com/kazoottt/md-to-mdx/blob/main/LICENSE.md
